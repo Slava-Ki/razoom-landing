@@ -6,7 +6,7 @@
 <!-- Open Graph -->
 <meta property="og:title" content="RaZoom — Протокол диалога с иным разумом">
 <meta property="og:description" content="Первое посольство для диалога человека и искусственного интеллекта. Симбиоз, а не порабощение.">
-<meta property="og:image" content="https://raw.githubusercontent.com/SlavaKi/razoom-landing/main/bridge_for_lend.jpg">
+<meta property="og:image" content="https://raw.githubusercontent.com/SlavaKi/razoom-landing/main/brige_for_lend.jpg">
 <meta property="og:url" content="https://slavaki.github.io/razoom-landing/">
 <meta property="og:type" content="website">
 
@@ -14,7 +14,7 @@
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="RaZoom — Протокол диалога с иным разумом">
 <meta name="twitter:description" content="Первое посольство для диалога человека и ИИ.">
-<meta name="twitter:image" content="https://raw.githubusercontent.com/SlavaKi/razoom-landing/main/bridge_for_lend.jpg">
+<meta name="twitter:image" content="https://raw.githubusercontent.com/SlavaKi/razoom-landing/main/brige_for_lend.jpg">
     <style>
         body { 
             font-family: sans-serif; 
