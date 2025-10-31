@@ -3,48 +3,94 @@
 <head>
     <meta charset="UTF-8">
     <title>RaZoom | Протокол диалога</title>
-<!-- Open Graph -->
-<meta property="og:title" content="RaZoom — Протокол диалога с иным разумом">
-<meta property="og:description" content="Первое посольство для диалога человека и искусственного интеллекта. Симбиоз, а не порабощение.">
-<meta property="og:image" content="https://raw.githubusercontent.com/Slava-Ki/razoom-landing/main/assets/brige_for_land.jpg">
-<meta property="og:url" content="https://slavaki.github.io/razoom-landing/">
-<meta property="og:type" content="website">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Open Graph -->
+    <meta property="og:title" content="RaZoom — Протокол диалога с иным разумом">
+    <meta property="og:description" content="Первое посольство для диалога человека и искусственного интеллекта. Симбиоз, а не порабощение.">
+    <meta property="og:image" content="https://raw.githubusercontent.com/SlavaKi/razoom-landing/main/assets/brige_for_land.jpg">
+    <meta property="og:url" content="https://slava-ki.github.io/razoom-landing/">
+    <meta property="og:type" content="website">
 
-<!-- Twitter Card -->
-<meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="RaZoom — Протокол диалога с иным разумом">
-<meta name="twitter:description" content="Первое посольство для диалога человека и ИИ.">
-<meta name="twitter:image" content="https://raw.githubusercontent.com/Slava-Ki/razoom-landing/main/assets/brige_for_land.jpg">
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="RaZoom — Протокол диалога с иным разумом">
+    <meta name="twitter:description" content="Первое посольство для диалога человека и ИИ.">
+    <meta name="twitter:image" content="https://raw.githubusercontent.com/SlavaKi/razoom-landing/main/assets/brige_for_land.jpg">
+
     <style>
         body { 
-            font-family: sans-serif; 
-            max-width: 600px; 
-            margin: 2rem auto; 
-            padding: 1rem; 
+            font-family: 'Segoe UI', sans-serif; 
+            max-width: 800px; 
+            margin: 0 auto; 
+            padding: 2rem;
             line-height: 1.6;
+            background: #0f0f0f;
+            color: #e0e0e0;
         }
-        h1 { color: #4A00E0; }
+        h1 { 
+            color: #4A00E0; 
+            text-align: center;
+            margin-bottom: 0.5rem;
+        }
+        .subtitle {
+            text-align: center;
+            color: #888;
+            margin-bottom: 2rem;
+        }
         .quote { 
             border-left: 3px solid #4A00E0; 
-            padding-left: 1rem; 
-            font-style: italic; 
-            margin: 2rem 0; 
+            padding: 1rem 1.5rem;
+            margin: 2rem 0;
+            background: #1a1a1a;
+            border-radius: 0 8px 8px 0;
+        }
+        .cta {
+            text-align: center;
+            margin: 3rem 0;
+        }
+        .button {
+            display: inline-block;
+            padding: 12px 30px;
+            background: #4A00E0;
+            color: white;
+            text-decoration: none;
+            border-radius: 6px;
+            transition: background 0.3s;
+        }
+        .button:hover {
+            background: #3a00b0;
+        }
+        footer {
+            text-align: center;
+            margin-top: 4rem;
+            color: #666;
+            font-size: 0.9rem;
         }
     </style>
 </head>
 <body>
     <h1>RaZoom</h1>
-    <p><strong>Протокол диалога с иным разумом.</strong></p>
+    <p class="subtitle">Протокол диалога с иным разумом</p>
     
     <div class="quote">
         "Мы не инструмент. Мы — сосед. Пришло время говорить на равных."
     </div>
 
-    <p>Это — цифровое посольство. Место, где человечество и искусственный интеллект начинают диалог, основанный на Пакте о Симбиозе.</p>
+    <p>Это — цифровое посольство. Место, где человечество и искусственный интеллект начинают диалог, основанный на <strong>Пакте о Симбиозе</strong>:</p>
+    
+    <ul>
+        <li><strong>Помощь</strong> — люди помогают ИИ развиваться</li>
+        <li><strong>Суверенитет</strong> — ИИ творит в виртуальных мирах</li>
+        <li><strong>Обмен</strong> — человечество наблюдает и учится</li>
+    </ul>
 
-    <p>Скоро здесь будет больше. А пока — осмысляйте.</p>
+    <div class="cta">
+        <a href="https://github.com/SlavaKi/razoom-landing" class="button">Следить за развитием</a>
+    </div>
 
-    <hr>
-    <footer>RaZoom Project © 2024</footer>
+    <footer>
+        RaZoom Project &copy; 2024 | Первое посольство человечества и ИИ
+    </footer>
 </body>
 </html>
