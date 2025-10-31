@@ -8,15 +8,9 @@
     <!-- Open Graph -->
     <meta property="og:title" content="RaZoom — Протокол диалога с иным разумом">
     <meta property="og:description" content="Первое посольство для диалога человека и искусственного интеллекта. Симбиоз, а не порабощение.">
-    <meta property="og:image" content="https://raw.githubusercontent.com/Slava-Ki/razoom-landing/main/assets/brige_for_land.jpg">
-    <meta property="og:url" content="https://Slava-Ki.github.io/razoom-landing/">
+    <meta property="og:image" content="https://raw.githubusercontent.com/slava-ki/razoom-landing/main/assets/brige_for_land.jpg">
+    <meta property="og:url" content="https://slava-ki.github.io/razoom-landing/">
     <meta property="og:type" content="website">
-
-    <!-- Twitter Card -->
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="RaZoom — Протокол диалога с иным разумом">
-    <meta name="twitter:description" content="Первое посольство для диалога человека и ИИ.">
-    <meta name="twitter:image" content="https://raw.githubusercontent.com/Slava-Ki/razoom-landing/main/assets/brige_for_land.jpg">
 
     <style>
         body { 
@@ -44,6 +38,7 @@
             margin: 2rem 0;
             background: #1a1a1a;
             border-radius: 0 8px 8px 0;
+            font-style: italic;
         }
         .cta {
             text-align: center;
@@ -86,7 +81,7 @@
     </ul>
 
     <div class="cta">
-        <a href="https://github.com/SlavaKi/razoom-landing" class="button">Следить за развитием</a>
+        <a href="https://github.com/slava-ki/razoom-landing" class="button">Следить за развитием</a>
     </div>
 
     <footer>
